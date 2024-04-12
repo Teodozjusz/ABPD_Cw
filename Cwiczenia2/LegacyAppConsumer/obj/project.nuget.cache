@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eIGXVpAdSukUfWDMX4ezYx0pTRZ3vy/iwezevy2wDiQ/LRpXqtlT9gfNlOOWsgc5s6KpgwPtuFH3VH6IywT33A==",
+  "success": true,
+  "projectFilePath": "/home/adam/Dokumenty/PJATK/Materiały/Semestr6/Aplikacje baz danych (APBD)/Ćwiczenia/2024-03-24/zadanie/LegacyAppConsumer/LegacyAppConsumer.csproj",
+  "expectedPackageFiles": [
+    "/home/adam/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

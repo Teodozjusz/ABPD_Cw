@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H5IfRaI3Uid7iOrSxAO4xjD9tmZaZsXlyGIJ2VWVEXHY2/J9J69hE5VdrzJbZKOiTdkvBb/8M57dDHvne1dIcw==",
+  "success": true,
+  "projectFilePath": "/home/adam/Dokumenty/PJATK/Materiały/Semestr6/Aplikacje baz danych (APBD)/Ćwiczenia/2024-03-24/zadanie/LegacyApp/LegacyApp.csproj",
+  "expectedPackageFiles": [
+    "/home/adam/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
