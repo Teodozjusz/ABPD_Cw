@@ -39,12 +39,7 @@ namespace LegacyApp.Service
 
         private bool VerifyClientLimit(User user)
         {
-            if (user.HasCreditLimit && user.CreditLimit < 500)
-            {
-                return false;
-            }
-
-            return true;
+            return !(user.HasCreditLimit && user.CreditLimit < 500);
         }
 
         private void HandleVeryImportantClient(User user)
@@ -78,32 +73,17 @@ namespace LegacyApp.Service
             int age = now.Year - dateOfBirth.Year;
             if (now.Month < dateOfBirth.Month || (now.Month == dateOfBirth.Month && now.Day < dateOfBirth.Day)) age--;
 
-            if (age < 21)
-            {
-                return false;
-            }
-
-            return true;
+            return age >= 21;
         }
 
         private bool VerifyEmail(string email)
         {
-            if (!email.Contains("@") && !email.Contains("."))
-            {
-                return false;
-            }
-
-            return true;
+            return !(!email.Contains("@") && !email.Contains("."));
         }
 
         private bool VerifyNames(string firstName, string lastName)
         {
-            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName))
-            {
-                return false;
-            }
-
-            return true;
+            return !(string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName));
         }
     }
 }
