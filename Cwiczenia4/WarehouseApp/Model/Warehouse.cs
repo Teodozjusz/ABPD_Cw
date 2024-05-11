@@ -6,6 +6,10 @@ public class Warehouse
     public string Name { get; set; }
     public string Address { get; set; }
 
+    public Warehouse()
+    {
+    }
+
     public Warehouse(int idWarehouse, string name, string address)
     {
         IdWarehouse = idWarehouse;

@@ -8,12 +8,7 @@ namespace WarehouseApp.Controller;
 [ApiController]
 public class WarehouseController : ControllerBase
 {
-    private IWarehouseService _service;
-
-    public WarehouseController()
-    {
-        _service = WarehouseService.GetInstance();
-    }
+    private IWarehouseService _service = WarehouseService.GetInstance();
 
     [HttpPost]
     public IActionResult changeWarehouse(WarehousePayload payload)
