@@ -80,6 +80,7 @@ public class WarehouseService : IWarehouseService
             com.Parameters.AddWithValue("now", DateTime.Now);
             com.ExecuteNonQuery();
             
+            await tran.CommitAsync();
 
         }
         catch (SqlException e)
