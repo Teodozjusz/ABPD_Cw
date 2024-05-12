@@ -21,8 +21,7 @@ public class WarehouseService : IWarehouseService
     public async Task<int> ChangeWarehouse(WarehousePayload payload)
     {
         using var con =
-            new SqlConnection(
-                "Data Source=db-mssql.pjwstk.edu.pl;Initial Catalog=2019SBD;Integrated Security=True;TrustServerCertificate=True;User=s24106;Password=********");
+            new SqlConnection("");
 
         using var com = new SqlCommand("select count(*) from product", con);
 
