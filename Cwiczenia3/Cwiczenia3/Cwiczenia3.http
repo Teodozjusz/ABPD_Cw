@@ -1,0 +1,6 @@
+@Cwiczenia3_HostAddress = http://localhost:5116
+
+GET {{Cwiczenia3_HostAddress}}/getAnimals/
+Accept: application/json
+
+###
