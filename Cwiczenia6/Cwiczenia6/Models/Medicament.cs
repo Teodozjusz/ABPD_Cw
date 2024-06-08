@@ -18,6 +18,6 @@ public class Medicament
     public string Type { get; set; } = null!;
 
     // Navigation properties
-    public PrescriptionMedicament PrescriptionMedicament { get; set; } = null!;
+    public ICollection<PrescriptionMedicament> PrescriptionMedicament { get; set; } = null!;
 
 }

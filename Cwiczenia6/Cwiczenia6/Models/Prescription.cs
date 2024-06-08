@@ -13,7 +13,7 @@ public class Prescription
     public int IdDoctor { get; set; }
     
     // Navigation properties
-    public PrescriptionMedicament PrescriptionMedicament { get; set; } = null!;
+    public ICollection<PrescriptionMedicament> PrescriptionMedicament { get; set; } = null!;
 
     
 }
