@@ -1,4 +1,5 @@
-public class WarehouseApplication
+namespace TravelApp;
+public class Travel
 {
     public static void Main(string[] args)
     {
